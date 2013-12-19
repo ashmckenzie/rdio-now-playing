@@ -1,0 +1,15 @@
+a.btn {
+  width: 100%;
+}
+
+a.btn span.hotkey {
+  font-size: 0.8em;
+}
+
+a.btn span.hotkey:before {
+  content: "(";
+}
+
+a.btn span.hotkey:after {
+  content: ")";
+}
